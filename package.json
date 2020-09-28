@@ -1,6 +1,6 @@
 {
   "name": "shorthash2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get a unique short hash of a string. Mainly based on shorthash.",
   "main": "dist/index.js",
   "scripts": {
