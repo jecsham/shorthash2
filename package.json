@@ -1,0 +1,20 @@
+{
+  "name": "shorthash2",
+  "version": "1.0.0",
+  "description": "Mainly based on shorthash, by Bibig",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "nyc --reporter lcov tape test/test.js"
+  },
+  "keywords": [
+    "shorthash",
+    "shorthash2"
+  ],
+  "author": "Jecsham",
+  "license": "MIT",
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "tape": "^5.0.1"
+  }
+}
