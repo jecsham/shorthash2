@@ -1,18 +1,27 @@
 {
   "name": "shorthash2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mainly based on shorthash (apparently abandoned)",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "nyc --reporter lcov tape test/test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jecsham/shorthash2.git"
+  },
   "keywords": [
+    "hash",
     "shorthash",
     "shorthash2"
   ],
   "author": "Jecsham",
   "license": "MIT",
+  "homepage": "https://github.com/jecsham/shorthash2#readme",
+  "bugs": {
+    "url": "https://github.com/jecsham/shorthash2/issues"
+  },
   "devDependencies": {
     "nyc": "^15.1.0",
     "tape": "^5.0.1"
