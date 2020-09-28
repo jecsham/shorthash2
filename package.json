@@ -1,6 +1,6 @@
 {
   "name": "shorthash2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mainly based on shorthash (apparently abandoned)",
   "main": "dist/index.js",
   "scripts": {
