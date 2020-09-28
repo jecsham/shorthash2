@@ -1,7 +1,7 @@
 {
   "name": "shorthash2",
   "version": "1.0.0",
-  "description": "Mainly based on shorthash, by Bibig",
+  "description": "Mainly based on shorthash (apparently abandoned)",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
