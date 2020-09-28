@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "node"
+after_script: bash <(curl -s https://codecov.io/bash)
+install:
+  - npm install
+script:
+  - npm test
