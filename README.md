@@ -3,7 +3,7 @@
 
 [![Build Status](https://travis-ci.com/jecsham/shorthash2.svg?branch=master)](https://travis-ci.com/jecsham/shorthash2) [![Codecov branch](https://img.shields.io/codecov/c/github/jecsham/shorthash2/master.svg)](https://codecov.io/gh/jecsham/shorthash2) [![GitHub package.json version](https://img.shields.io/github/package-json/v/jecsham/shorthash2.svg)](https://github.com/jecsham/shorthash2/releases)
 
-> Mainly based on [shorthash](https://github.com/bibig/node-shorthash) (apparently abandoned), by Bibig, **shorthash2** offers a small optimization in memory usage, small features and is available for **Browser** and **NodeJs**.
+> Mainly based on [shorthash](https://github.com/bibig/node-shorthash) (apparently abandoned), by Bibig, **shorthash2** offers a small optimization in memory usage, small features, **typescript** declarations and is available for **browser** and **nodejs**.
 
 + A mini js lib to generate short, alpha-number, undecryptable and unique hash id from a long string (utf8 format).
 + Use shorthash2 when you want to encrypt a string like a movie name or a people name to a short, unique and url friendly id.
