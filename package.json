@@ -23,7 +23,7 @@
     "url": "https://github.com/jecsham/shorthash2/issues"
   },
   "devDependencies": {
-    "nyc": "^15.1.0",
-    "tape": "^5.0.1"
+    "nyc": "^17.0.0",
+    "tape": "^5.8.1"
   }
 }
