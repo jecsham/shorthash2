@@ -6,7 +6,8 @@ on:
       - master
 
 jobs:
-  build:
+  test-coverage:
+    name: Testing and coverage
     runs-on: ubuntu-latest
     strategy:
       matrix:
