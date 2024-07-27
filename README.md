@@ -1,7 +1,7 @@
 # shorthash2
 [![NPM](https://nodei.co/npm/shorthash2.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/shorthash2/)
 
-[![Build Status](https://travis-ci.com/jecsham/shorthash2.svg?branch=master)](https://travis-ci.com/jecsham/shorthash2) [![Codecov branch](https://img.shields.io/codecov/c/github/jecsham/shorthash2/master.svg)](https://codecov.io/gh/jecsham/shorthash2) [![GitHub package.json version](https://img.shields.io/github/package-json/v/jecsham/shorthash2.svg)](https://github.com/jecsham/shorthash2/releases)
+![Build Status](https://github.com/jecsham/shorthash2/actions/workflows/test.yml/badge.svg) [![Codecov branch](https://img.shields.io/codecov/c/github/jecsham/shorthash2/master.svg)](https://codecov.io/gh/jecsham/shorthash2) [![GitHub package.json version](https://img.shields.io/github/package-json/v/jecsham/shorthash2.svg)](https://github.com/jecsham/shorthash2/releases)
 
 > Mainly based on [shorthash](https://github.com/bibig/node-shorthash) (apparently abandoned), by Bibig, **shorthash2** offers a small optimization in memory usage, small features, **typescript** declarations and is available for **browser** and **nodejs**.
 
