@@ -38,3 +38,8 @@ shortHash('和平');
 // => 33NM
 
 ```
+
+### Development
+1. Clone repo
+2. Install dev dependencies: `$ npm i`
+3. Run tests: `$ npm test`
