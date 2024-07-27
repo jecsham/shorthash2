@@ -4,9 +4,13 @@ on:
   pull_request:
     branches:
       - master
+  push:
+    branches:
+      - master
 
 jobs:
-  build:
+  test-coverage:
+    name: Testing and coverage
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -28,7 +32,7 @@ jobs:
       run: npm test
 
     - name: Upload coverage to Codecov
-      if: matrix.node-version == 'lts/*'
+      if: matrix.node-version == 'lts/*' && github.ref == 'refs/heads/master'
       uses: codecov/codecov-action@v4
       with:
         fail_ci_if_error: true
